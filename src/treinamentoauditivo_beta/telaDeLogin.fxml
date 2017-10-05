@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.layout.Pane?>
+
+<Pane fx:id="telaDeLogin" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="600.0" xmlns="http://javafx.com/javafx/9" xmlns:fx="http://javafx.com/fxml/1" fx:controller="treinamentoauditivo_beta.TelaDeLoginController">
+   <children>
+      <Label layoutX="272.0" layoutY="39.0" text="Tela de Login" />
+      <Label layoutX="14.0" layoutY="111.0" text="Emaill" />
+      <Label layoutX="16.0" layoutY="158.0" text="Senha" />
+      <TextField id="email" fx:id="email" layoutX="58.0" layoutY="107.0" />
+      <PasswordField fx:id="senha" layoutX="58.0" layoutY="154.0" />
+      <Button id="irParaCadastrar" fx:id="irParaCadastrar" onAction="#irParaCadastrar" layoutX="427.0" layoutY="282.0" mnemonicParsing="false" text="Cadastrar" />
+      <Button  id="recuperarSenha" fx:id="recuperarSenha" onAction="#recuperarSenha" layoutX="460.0" layoutY="361.0" mnemonicParsing="false" text="Recuperar Senha" />
+      <Label fx:id="avisoTelaDeLogin" layoutX="250.0" layoutY="200.0" />
+      <Button id="logar" fx:id="logar" layoutX="207.0" layoutY="282.0" mnemonicParsing="false" onAction="#logar" text="Logar" />
+   </children>
+</Pane>
